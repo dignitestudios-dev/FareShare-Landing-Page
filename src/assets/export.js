@@ -20,6 +20,12 @@ import RideSafely from "./ride-safety.png"
 import RidePrefer from "./ride-prefer.png"
 import TrackRide from "./track-ride.png"
 import BookRide from "./book-ride.png"
+import ReviewImage from "./review-image-1.png"
+import How1 from "./how-1.png"
+import How2 from "./how-2.png"
+import How3 from "./how-3.png"
+
+
 
 
 
@@ -46,5 +52,9 @@ export {
     RidePrefer,
     RideSafely,
     BookRide,
-    TrackRide
+    TrackRide,
+    ReviewImage,
+    How1,
+    How2,
+    How3
 }

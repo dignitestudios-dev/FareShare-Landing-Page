@@ -31,7 +31,10 @@ const Services = () => {
     },
   ];
   return (
-    <div className="w-full flex flex-col justify-center  items-center py-8 lg:py-14 gap-6 px-6 md:px-8 lg:px-20 xl:px-24">
+    <div
+      id="services"
+      className="w-full flex flex-col justify-center  items-center py-8 lg:py-14 gap-6 px-6 md:px-8 lg:px-20 xl:px-24"
+    >
       <h1 className="text-[30px] font-bold text-black">Services</h1>
 
       <div className="w-full h-auto grid gap-5 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 grid-rows-1">

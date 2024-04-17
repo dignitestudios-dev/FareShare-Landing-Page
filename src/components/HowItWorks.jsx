@@ -11,6 +11,7 @@ import {
 } from "../assets/export";
 import ReviewCard from "./ReviewCard";
 import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import {
@@ -20,11 +21,9 @@ import {
 
 export const sliderSettings2 = {
   slidesPerView: 1,
-  spaceBetween: 50,
+  spaceBetween: 20,
   centeredSlides: true,
-  // autoplay: {
-  //   delay: 1000,
-  // },
+
   loop: true,
   breakpoints: {
     480: {
@@ -46,7 +45,10 @@ export const sliderSettings2 = {
 
 const HowItWorks = () => {
   return (
-    <div className="w-full relative flex flex-col justify-center  items-center py-8 lg:py-14 gap-3 px-6 md:px-8 lg:px-20 xl:px-24">
+    <div
+      id="how-it-works"
+      className="w-full relative flex flex-col justify-center  items-center py-8 lg:py-14 gap-3 lg:gap-6 px-6 md:px-8 lg:px-20 xl:px-24"
+    >
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-[30px] font-bold text-black">How it works</h1>
 
@@ -82,6 +84,11 @@ const HowItWorks = () => {
         <div className=" flex flex-col justify-center">
           <Swiper
             {...sliderSettings2}
+            autoplay={{
+              delay: 1500,
+              disableOnInteraction: false,
+            }}
+            modules={[Autoplay]}
             className="w-full h-full relative flex flex-col gap-y-12 justify-center"
           >
             {/* <SliderButtons2 /> */}

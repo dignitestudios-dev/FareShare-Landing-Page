@@ -61,7 +61,7 @@ const Navbar = () => {
         <li className="text-sm tracking-wider font-medium text-gray-800 active">
           <button
             onClick={() => {
-              handleClick("contact-us");
+              handleClick("testimonial");
             }}
           >
             Testimonials

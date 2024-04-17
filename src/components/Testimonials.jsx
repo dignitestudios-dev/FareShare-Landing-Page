@@ -37,7 +37,10 @@ export const sliderSettings2 = {
 
 const Testimonials = () => {
   return (
-    <div className="w-full flex flex-col justify-center  items-center py-8 lg:py-14 gap-3 px-6 md:px-8 lg:px-20 xl:px-24">
+    <div
+      id="testimonial"
+      className="w-full flex flex-col justify-center  items-center py-8 lg:py-14 gap-3 px-6 md:px-8 lg:px-20 xl:px-24"
+    >
       <div className="flex flex-col justify-center items-center">
         <h1 className="text-[30px] font-bold text-black">Testimonials</h1>
 

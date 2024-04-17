@@ -20,14 +20,14 @@ import {
 } from "react-icons/md";
 
 export const sliderSettings2 = {
-  slidesPerView: 1,
+  slidesPerView: 2,
   spaceBetween: 20,
   centeredSlides: true,
 
   loop: true,
   breakpoints: {
     480: {
-      slidesPerView: 1,
+      slidesPerView: 2,
     },
     600: {
       slidesPerView: 1,
@@ -56,7 +56,7 @@ const HowItWorks = () => {
           Step-by-step guide on using FareShare:
         </p>
       </div>
-      <div className="w-full  h-auto grid grid-cols-1 gap-4 lg:gap-8 lg:grid-cols-2">
+      <div className="w-full  h-auto grid grid-cols-1 gap-8 lg:gap-8 lg:grid-cols-2">
         <div className="w-full h-auto grid grid-cols-2 gap-4 grid-rows-2">
           <HowItWorksCard
             title={"Book Your Ride"}

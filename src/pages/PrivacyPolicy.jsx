@@ -1,9 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 const PrivacyPolicy = () => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
-    <div className="px-6 md:px-24 pt-12 font-sans leading-normal tracking-normal">
-      <div class="p-6">
+    <div className="px-3 py-3 md:px-24 lg:pt-12 font-sans leading-normal tracking-normal">
+      <div class="">
         <h1 class="text-[32px] font-bold mb-4">FareShare Privacy Policy </h1>
         <hr class="border-t-2 border-black my-4"></hr>
         <p class="text-sm text-gray-500 mb-4">Last Updated: July 10, 2024</p>
@@ -28,9 +31,7 @@ const PrivacyPolicy = () => {
           subject to our Terms of Service.
         </p>
 
-        <h2 class="text-xl font-bold mb-2">
-          2. The Information We Collect
-        </h2>
+        <h2 class="text-xl font-bold mb-2">2. The Information We Collect</h2>
         <p class="mb-4">
           When you use the FareShare Platform, we collect the information you
           provide, usage information, and information about your device. We also
@@ -256,9 +257,7 @@ const PrivacyPolicy = () => {
           provide support to you.
         </p>
 
-        <h2 class="text-xl font-bold mb-2">
-          3. How We Use Your Information
-        </h2>
+        <h2 class="text-xl font-bold mb-2">3. How We Use Your Information</h2>
 
         <p class="mb-4">We use your personal information to:</p>
         <ul class="list-disc pl-5 mb-4">
@@ -393,9 +392,7 @@ const PrivacyPolicy = () => {
           information to respond to those demands or obligations.
         </p>
 
-        <h2 class="text-xl font-bold mb-2">
-          4. How We Share Your Information
-        </h2>
+        <h2 class="text-xl font-bold mb-2">4. How We Share Your Information</h2>
 
         <p class="mb-4">
           We do not sell your personal information to third parties for money --
@@ -675,9 +672,7 @@ const PrivacyPolicy = () => {
           steps to delete that information.
         </p>
 
-        <h2 class="text-xl font-bold mb-4">
-          8. Links to Third-Party Websites
-        </h2>
+        <h2 class="text-xl font-bold mb-4">8. Links to Third-Party Websites</h2>
         <p class="mb-4">
           The FareShare Platform may contain links or references to third-party
           websites, products, or services. Those third parties may have privacy

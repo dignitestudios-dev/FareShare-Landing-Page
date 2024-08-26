@@ -55,7 +55,7 @@ const Footer = () => {
           Copyright © 2024 FareShare. All rights reserved.
         </p>
         <p className="text-xs text-white font-light leading-[16.17px]">
-          Terms of Services | Privacy Policy | FAQ
+        <Link to="/terms-and-conditions" >Terms of Services </Link> | <Link to="/privacy-policy" >Privacy Policy</Link> | FAQ
         </p>
       </div>
     </div>

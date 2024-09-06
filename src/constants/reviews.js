@@ -9,7 +9,7 @@ export const REVIEWS = [
     image_src: "/david-miller.webp",
     author: "David Miller",
     review:
-      "Thank you again for your excellent service this past weekend. Everything was great—you’re awesome! We’d like to schedule your wheelchair accessible van again for our mom, on Sunday, and Monday & Sunday.",
+      "Thank you again for your excellent service this past weekend. Everything was great—you’re awesome! We’d like to schedule your wheelchair accessible van again for our mom, on Monday & Sunday.",
   },
   {
     image_src: "/Olivia-James.webp",

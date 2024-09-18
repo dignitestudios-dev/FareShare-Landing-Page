@@ -8,6 +8,7 @@ import {
   MdOutlineKeyboardArrowLeft,
   MdOutlineKeyboardArrowRight,
 } from "react-icons/md";
+import { REVIEWS } from "../constants/reviews";
 
 export const sliderSettings2 = {
   slidesPerView: 1,
@@ -48,14 +49,26 @@ const Testimonials = () => {
           What our customer's say
         </p>
       </div>
-      <div className=" w-screen relative   flex flex-col justify-center">
+      <div className=" w-screen relative mt-10  flex flex-col justify-center">
         <span className="w-[10%] h-[270px] bg-white/95 blur-2xl z-[1000] absolute top-0 left-0"></span>
         <Swiper
           {...sliderSettings2}
           className="w-full h-full flex flex-col gap-y-12 justify-center"
         >
           <SliderButtons2 />
-          <SwiperSlide className="h-full flex justify-center">
+          {REVIEWS.map((r, index) => {
+            return (
+              <SwiperSlide className="h-full flex justify-center">
+                <ReviewCard
+                  image={r.image_src}
+                  author={r.author}
+                  review={r.review}
+                />
+              </SwiperSlide>
+            );
+          })}
+
+          {/* <SwiperSlide className="h-full flex justify-center">
             <ReviewCard />
           </SwiperSlide>
           <SwiperSlide className="h-full flex justify-center">
@@ -66,10 +79,7 @@ const Testimonials = () => {
           </SwiperSlide>
           <SwiperSlide className="h-full flex justify-center">
             <ReviewCard />
-          </SwiperSlide>
-          <SwiperSlide className="h-full flex justify-center">
-            <ReviewCard />
-          </SwiperSlide>
+          </SwiperSlide> */}
         </Swiper>
         <span className="w-[10%] h-[270px] bg-white/95 blur-2xl z-[1000] absolute top-0 right-0"></span>
       </div>

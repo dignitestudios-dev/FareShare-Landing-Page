@@ -42,10 +42,10 @@ const Footer = () => {
             We’re always happy to help.
           </p>
           <a
-            href="mailto:info@fareshare.com"
+            href="mailto:info@faresharellc.com"
             className={`text-sm text-white/[0.7] font-light leading-[16.17px]`}
           >
-            info@fareshare.com
+            info@faresharellc.com
           </a>
         </div>
       </div>
@@ -55,7 +55,8 @@ const Footer = () => {
           Copyright © 2024 FareShare. All rights reserved.
         </p>
         <p className="text-xs text-white font-light leading-[16.17px]">
-        <Link to="/terms-and-conditions" >Terms of Services </Link> | <Link to="/privacy-policy" >Privacy Policy</Link> | FAQ
+          <Link to="/terms-and-conditions">Terms of Services </Link> |{" "}
+          <Link to="/privacy-policy">Privacy Policy</Link> | FAQ
         </p>
       </div>
     </div>

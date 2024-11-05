@@ -699,6 +699,24 @@ const PrivacyPolicy = () => {
           If you have any questions or concerns about your privacy or anything
           in this policy, we encourage you to contact us.
         </p>
+
+        <h2 class="text-xl font-bold mb-2">
+          11. Phone Number Collection, Usage, and Verification
+        </h2>
+        <p class="mb-4">
+          To ensure secure and reliable communication between users and drivers
+          on the FareShare platform, we require your phone number for
+          verification purposes. During registration, a One-Time Password (OTP)
+          will be sent to the provided phone number via SMS to confirm its
+          validity, thereby helping to maintain an authentic and trustworthy
+          user base and preventing the use of fraudulent or spam numbers. Your
+          phone number will remain strictly confidential, will not be disclosed
+          to any third-party companies or external platforms, and will not be
+          used for marketing or promotional purposes. It is exclusively utilized
+          for user identity verification and to facilitate necessary
+          communications between users and drivers as required to ensure a safe
+          and seamless ride-hailing experience on the FareShare platform.
+        </p>
       </div>
     </div>
   );
